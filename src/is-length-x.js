@@ -7,9 +7,7 @@
  * @module is-length-x
  */
 
-'use strict';
-
-var isSafeInteger = require('is-safe-integer-x');
+const isSafeInteger = require('is-safe-integer-x');
 
 /**
  * This method checks if `value` is a valid array-like length.
