@@ -21,30 +21,29 @@
 <a name="module_is-length-x"></a>
 
 ## is-length-x
+
 Checks if `value` is a valid array-like length.
 
-**Version**: 2.2.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_is-length-x--module.exports"></a>
 
 ### `module.exports(value)` ⇒ <code>boolean</code> ⏏
+
 This method checks if `value` is a valid array-like length.
 
 **Kind**: Exported function  
-**Returns**: <code>boolean</code> - Returns `true` if `value` is a valid length, else `false`.  
+**Returns**: <code>boolean</code> - Returns `true` if `value` is a valid length, else `false`.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description         |
+| ----- | --------------- | ------------------- |
 | value | <code>\*</code> | The value to check. |
 
-**Example**  
-```js
-var isLength = require('is-length-x');
+**Example**
 
-isLength(3); // => true
-isLength(Number.MIN_VALUE); // => false
-isLength(Infinity); // => false
-isLength('3'); // => false
+```js
+import isLength from 'is-length-x';
+
+console.log(isLength(3)); // => true
+console.log(isLength(Number.MIN_VALUE)); // => false
+console.log(isLength(Infinity)); // => false
+console.log(isLength('3')); // => false
 ```
