@@ -8,7 +8,7 @@ describe('isLength', function() {
 
   it('should return `true` for lengths', function() {
     expect.assertions(1);
-    /* eslint-disable-next-line compat/compat */
+
     const values = [0, 3, Number.MAX_SAFE_INTEGER];
 
     const expected = values.map(function() {
@@ -22,7 +22,7 @@ describe('isLength', function() {
 
   it('should return `false` for non-lengths', function() {
     expect.assertions(1);
-    /* eslint-disable-next-line compat/compat,no-void */
+
     const values = [-1, '1', 1.1, Number.MAX_SAFE_INTEGER + 1, void 0, null, '', '1', false, true];
 
     const expected = values.map(function() {
