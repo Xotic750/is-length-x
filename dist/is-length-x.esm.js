@@ -6,8 +6,10 @@ import isSafeInteger from 'is-safe-integer-x';
  * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
  */
 
-export default function isLength(value) {
+var isLength = function isLength(value) {
   return isSafeInteger(value) && value >= 0;
-}
+};
+
+export default isLength;
 
 //# sourceMappingURL=is-length-x.esm.js.map

@@ -6,6 +6,8 @@ import isSafeInteger from 'is-safe-integer-x';
  * @param {*} value - The value to check.
  * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
  */
-export default function isLength(value) {
+const isLength = function isLength(value) {
   return isSafeInteger(value) && value >= 0;
-}
+};
+
+export default isLength;
