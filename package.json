@@ -1,6 +1,6 @@
 {
   "name": "is-length-x",
-  "version": "3.0.17",
+  "version": "3.0.18",
   "description": "Checks if `value` is a valid array-like length.",
   "homepage": "https://github.com/Xotic750/is-length-x",
   "author": {
@@ -22,6 +22,7 @@
   ],
   "module": "dist/is-length-x.esm.js",
   "main": "dist/is-length-x.js",
+  "jsdelivr": "dist/is-length-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/is-length-x.js -o dist/is-length-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
@@ -49,7 +50,7 @@
     "url": "https://github.com/Xotic750/is-length-x/issues"
   },
   "dependencies": {
-    "is-safe-integer-x": "^2.0.17"
+    "is-safe-integer-x": "^2.0.18"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
