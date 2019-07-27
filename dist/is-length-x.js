@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-27T13:41:36.998Z",
+  "date": "2019-07-27T14:12:14.993Z",
   "describe": "",
   "description": "Checks if `value` is a valid array-like length.",
   "file": "is-length-x.js",
-  "hash": "46a9f89140762f9d124b",
+  "hash": "70d866466ed69cef4a97",
   "license": "MIT",
-  "version": "3.0.23"
+  "version": "3.0.24"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -1296,8 +1296,6 @@ var binaryRadix = 2;
 var octalRadix = 8;
 var testCharsCount = 2;
 var to_number_x_esm_ERROR_MESSAGE = 'Cannot convert a Symbol value to a number';
-/** @type {NumberConstructor} */
-
 var to_number_x_esm_castNumber = testCharsCount.constructor;
 var pStrSlice = to_number_x_esm_ERROR_MESSAGE.slice;
 var binaryRegex = /^0b[01]+$/i;
