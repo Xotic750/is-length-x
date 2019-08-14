@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-08-14T13:56:53.774Z",
+  "date": "2019-08-14T14:50:57.408Z",
   "describe": "",
   "description": "Checks if `value` is a valid array-like length.",
   "file": "is-length-x.js",
   "hash": "967973416d2b5819bb5e",
   "license": "MIT",
-  "version": "3.1.0"
+  "version": "3.2.0"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
