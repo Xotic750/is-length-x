@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-08-20T09:04:13.985Z",
+  "date": "2019-08-20T13:06:56.376Z",
   "describe": "",
   "description": "Checks if `value` is a valid array-like length.",
   "file": "is-length-x.js",
