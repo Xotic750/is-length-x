@@ -1,6 +1,6 @@
 {
   "name": "is-length-x",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Checks if `value` is a valid array-like length.",
   "homepage": "https://github.com/Xotic750/is-length-x",
   "author": {
@@ -51,7 +51,7 @@
     "url": "https://github.com/Xotic750/is-length-x/issues"
   },
   "dependencies": {
-    "is-safe-integer-x": "^2.2.1"
+    "is-safe-integer-x": "^2.2.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
